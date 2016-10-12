@@ -1,0 +1,28 @@
+{
+  "name": "toggl-promised",
+  "version": "1.0.0",
+  "description": "Simple Toggl.com ES6 API",
+  "main": "main.js",
+  "scripts": {
+    "test": "xo && nyc ava && nyc report --reporter=text-lcov > coverage.lcov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meeDamian/toggl-promised.git"
+  },
+  "keywords": [
+    "toggl",
+    "time",
+    "tracking",
+    "api",
+    "sdk",
+    "promise",
+    "es6"
+  ],
+  "author": "Damian Mee <mee.damian@gmail.com> (https://meedamian.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meeDamian/toggl-promised/issues"
+  },
+  "homepage": "https://github.com/meeDamian/toggl-promised#readme"
+}
