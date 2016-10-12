@@ -1,6 +1,6 @@
 {
   "name": "toggl-promised",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Simple Toggl.com ES6 API",
   "main": "main.js",
   "scripts": {
@@ -24,5 +24,27 @@
   "bugs": {
     "url": "https://github.com/meeDamian/toggl-promised/issues"
   },
-  "homepage": "https://github.com/meeDamian/toggl-promised#readme"
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": "^3.10.8",
+    "yarn": "^0.15.1"
+  },
+  "homepage": "https://github.com/meeDamian/toggl-promised#readme",
+  "dependencies": {
+    "mee": "^0.11.3",
+    "request": "^2.75.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node"
+    ],
+    "space": true
+  },
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "coveralls": "^2.11.14",
+    "nyc": "^8.3.1",
+    "xo": "^0.17.0"
+  }
 }
